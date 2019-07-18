@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
 
         if (broadcastReceiverUpdateList != null)
             unregisterReceiver(broadcastReceiverUpdateList);
-
     }
 
     void updateList(){
