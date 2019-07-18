@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pikarevsoft.ekftest.ekftest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_list"
+        android:label="@string/list_workers"
+        android:roundIcon="@mipmap/ic_list_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/list_workers">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewWorkerActivity"
+            android:label="@string/label_new_worker" />
+        <activity
+            android:name=".EditWorkerActivity"
+            android:label="@string/label_edit_worker" />
+        <activity
+            android:name=".NewChildActivity"
+            android:label="@string/label_new_child" />
+        <activity
+            android:name=".EditChildActivity"
+            android:label="@string/label_edit_child" />
+        <activity
+            android:name=".ListChildrenActivity"
+            android:label="@string/label_list_children_of_worker" />
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:color/background_light"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/family"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patronymic"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_birthday"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prof"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_children"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main_text_family"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="main_text_family"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/main_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="main_text_name"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/main_text_patronymic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="main_text_patronymic"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/main_text_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="main_text_birthday"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/main_text_prof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="main_text_prof"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/main_text_children"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="main_text_children"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

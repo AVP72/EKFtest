@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EKFtest</string>
+    <string name="family">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="patronymic">Отчество</string>
+    <string name="date_birthday">Дата рождения</string>
+    <string name="prof">Должность</string>
+    <string name="n_children">Кол-во детей</string>
+    <string name="list_workers">Список сотрудников</string>
+
+    <string name="ok">OK</string>
+
+    <string name="exit_without_save">Вы хотите выйти без сохранения?</string>
+    <string name="yes_exit">Да, выйти</string>
+    <string name="cancel">Отмена</string>
+    <string name="error_read_line">Ошибка чтения записи</string>
+    <string name="list_of_cildren">Список детей</string>
+
+    <string name="label_new_worker">Данные о новом сотруднике</string>
+    <string name="label_edit_worker">Редактирование сотрудника</string>
+    <string name="label_new_child">Данные о новом ребенке</string>
+    <string name="label_edit_child">Редактирование ребенка</string>
+    <string name="label_list_children_of_worker">Список детей сотрудника</string>
+
+    <string name="save_worker">Данные сотрудника будут записаны</string>
+    <string name="write">Записать</string>
+
+    <string name="birthday_shot">Д. рожд.</string>
+    <string name="not_children">Нет детей</string>
+
+    <string name="edit">Редактировать</string>
+    <string name="send">Отправить</string>
+    <string name="show_list_children">Список детей</string>
+    <string name="delete">Удалить</string>
+    <string name="choose_not">Выбор не определен</string>
+    <string name="parent">Родитель:</string>
+    <string name="delete_this_line">Удалить выбранную запись?</string>
+
+</resources>
